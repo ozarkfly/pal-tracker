@@ -5,5 +5,5 @@ metadata:
   labels:
     app: pal-tracker
 data:
-  welcome.message: "hello from kubernetes lifecycle hook test"
-  endpoint.exposure: info,health
+  welcome.message: "hello from kubernetes lifecycle 3"
+  endpoint.exposure: "info,health,palTrackerFailure"

@@ -43,6 +43,3 @@ test.environment([
         "SPRING_DATASOURCE_URL": "jdbc:postgresql://localhost:5432/tracker_test?user=tracker&password=password",
 ])
 
-springBoot {
-    buildInfo()
-}
